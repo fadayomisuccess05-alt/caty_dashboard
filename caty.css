@@ -103,3 +103,46 @@ footer img {
   padding-left: 50%;
   font-weight: 900;
 }
+
+@media screen and (max-width: 500px) {
+  aside, .catydetails p:not(:first-child) {
+    display: none;
+  }
+  .itemA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemA img {
+    margin: 0;
+    padding: 35px 35px 2px;
+  }
+  .catydetails {
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .buttons {
+    margin: 12px;
+    font-size: 15px;
+  }
+  .musiclist p:nth-child(2n) {
+    display: none;
+  }
+  .musiclist p:nth-child(1) {
+    margin-right: 150px;
+  }
+  .musiclist p:nth-child(3) {
+    margin-left: 100px;
+  }
+  footer img {
+    display: none;
+  }
+  .info {
+    padding-left: 15px;
+  }
+  .controls {
+    padding-left: 0px;
+  }
+}
