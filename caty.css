@@ -134,15 +134,16 @@ footer img {
     margin-right: 150px;
   }
   .musiclist p:nth-child(3) {
-    margin-left: 100px;
+    margin-left: 80px;
   }
   footer img {
     display: none;
   }
   .info {
-    padding-left: 15px;
+    padding-left: 20px;
   }
   .controls {
     padding-left: 0px;
+    padding-right: 15px;
   }
 }
